@@ -2,8 +2,8 @@ import React from 'react';
 import Button from './Button';
 import Dropdown from './Dropdown';
 import SplitToggle from './SplitToggle';
-import omit from 'lodash-compat/object/omit';
-import pick from 'lodash-compat/object/pick';
+import omit from 'lodash/omit';
+import pick from 'lodash/pick';
 
 class SplitButton extends React.Component {
 

@@ -21,7 +21,7 @@ import Footer from './ModalFooter';
 
 import BaseModal from 'react-overlays/lib/Modal';
 import isOverflowing from 'react-overlays/lib/utils/isOverflowing';
-import pick from 'lodash-compat/object/pick';
+import pick from 'lodash/pick';
 
 const Modal = React.createClass({
 
